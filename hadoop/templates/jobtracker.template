@@ -14,7 +14,7 @@
                             }
                         }
                     ],
-                    "obj": "hadoop:service=JobTracker,name=JobTrackerInfo",
+                    "obj": "Hadoop:service=JobTracker,name=JobTrackerInfo",
                     "resultAlias": "JobTrackerInfo",
                     "attr": [
                           "ThreadCount"
@@ -30,20 +30,16 @@
                             }
                         }
                     ],
-                    "obj": "hadoop:service=JobTracker,name=RpcActivityForPort8021",
+                    "obj": "Hadoop:service=JobTracker,name=RpcActivityForPort*",
                     "resultAlias": "JobTrackerRpcActivity",
                     "attr": [
                         "NumOpenConnections",
                         "ReceivedBytes",
                         "SentBytes",
-                        "RpcProcessingTimeAvgTime",
-                        "RpcProcessingTimeMinTime",
-                        "RpcProcessingTimeMaxTime",
-                        "RpcProcessingTimeNumOps",
-                        "RpcQueueTimeAvgTime",
-                        "RpcQueueTimeMinTime",
-                        "RpcQueueTimeMaxTime",
-                        "RpcQueueTimeNumOps",
+                        "RpcProcessingTime_avg_time",
+                        "RpcProcessingTime_num_ops",
+                        "RpcQueueTime_avg_time",
+                        "RpcQueueTime_num_ops",
                         "callQueueLen"
                     ]
                 }
