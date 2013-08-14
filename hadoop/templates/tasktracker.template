@@ -14,20 +14,16 @@
                             }
                         }
                     ],
-                    "obj": "hadoop:service=TaskTracker,name=RpcActivityForPort*",
+                    "obj": "Hadoop:service=TaskTracker,name=RpcActivityForPort*",
                     "resultAlias": "TaskTrackerRpcActivity",
                     "attr": [
                         "NumOpenConnections",
                         "ReceivedBytes",
                         "SentBytes",
-                        "RpcProcessingTimeAvgTime",
-                        "RpcProcessingTimeMinTime",
-                        "RpcProcessingTimeMaxTime",
-                        "RpcProcessingTimeNumOps",
-                        "RpcQueueTimeAvgTime",
-                        "RpcQueueTimeMinTime",
-                        "RpcQueueTimeMaxTime",
-                        "RpcQueueTimeNumOps",
+                        "RpcProcessingTime_avg_time",
+                        "RpcProcessingTime_num_ops",
+                        "RpcQueueTime_avg_time",
+                        "RpcQueueTime_num_ops",
                         "callQueueLen"
                     ]
                 }
